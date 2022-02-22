@@ -22,7 +22,7 @@ public class Dashboard extends HttpServlet {
 		PrintWriter out = response.getWriter();
 
 //		Check whether the session already exists
-		if ((session.getAttribute("userName") != null) && (session.getAttribute("userPassword") != null))  {
+		if ((session.getAttribute("Nikhila") != null) && (session.getAttribute("Nikki") != null))  {
 
 			out.println("<h3>Welcome " + session.getAttribute("userName"));
 
