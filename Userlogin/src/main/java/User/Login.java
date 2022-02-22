@@ -26,7 +26,7 @@ public class Login extends HttpServlet{
 		HttpSession theSession = request.getSession();
 		
 //		Validate the username
-		if(uName.trim().equals("chaithanya")  && uPassword.trim().equals("merugu01")) {
+		if(uName.trim().equals("Nikhila")  && uPassword.trim().equals("Nikki")) {
 //			Save the username in the session
 			theSession.setAttribute("userName", uName);
 			theSession.setAttribute("userPassword", uPassword);
